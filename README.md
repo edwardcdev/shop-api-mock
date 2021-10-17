@@ -86,15 +86,6 @@
   "isAdmin": "true"
 }
 ```
-- sign in 
-`POST` request to `/api/v1/auth/signin`
-
-```json
-{
-	"email": ,
-	"password":
-}
-```
 - create a new product
 `POST` request to `/api/v1/products`
 
@@ -111,8 +102,8 @@
 `PATCH` request in a multipart form to `/api/v1/products/:productId/upload`
 ```json
 { 
-  ...
-  "image": picture file
-  ...
+  ---
+  "image": "picture file"
+  ---
 }
 ```
